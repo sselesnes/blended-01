@@ -32,4 +32,26 @@ header > .logo {
   font-size: 18px;
   font-weight: bold; /* normal — 400, bold — 700 */
   font-style: italic; /* normal | italic | oblique | initial | inherit */
+  text-decoration: none; /* none | underline | line-through | overline */
+  text-align: left; /* left | right | center | justify */
+}
+
+.hero .text-app,
+.logo .logo-app {
+  color: red;
+  text-decoration: underline;
+}
+
+header > .logo:hover,
+.logo:focus {
+  text-decoration: line-through;
+}
+
+header > nav {
+  text-transform: lowercase; /* none | uppercase | lowercase | capitalize */
+  letter-spacing: 5px; /* значення | normal | inherit */
+}
+
+.features-text {
+  line-height: 1; /*| множник | значення | відсотки | normal | inherit*/
 }
