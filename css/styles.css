@@ -28,7 +28,8 @@ h1 {
 
 header > .logo {
   color: black;
-  font-family: "Raleway", sans-serif;
+  font-family: "Eater", serif;
   font-size: 18px;
-  font-weight: 700;
+  font-weight: bold; /* normal — 400, bold — 700 */
+  font-style: italic; /* normal | italic | oblique | initial | inherit */
 }
